@@ -60,8 +60,6 @@ This is a working implementation:
 #include "sys/alt_irq.h"
 #include "altera_avalon_pio_regs.h"
 #include "alt_types.h"
-#include "unistd.h"
-#include "stdbool.h"
 
 static void btn0_isr(void * context) {
     // ... do IRQ things here
